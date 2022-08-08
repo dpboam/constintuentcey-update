@@ -24,7 +24,7 @@ jobs:
           pip install pandas
           
       - name: execute py script # run update.py
-        run: python update.py
+        run: python src\\update.py
           
       - name: commit files
         run: |
