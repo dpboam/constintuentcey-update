@@ -3,7 +3,7 @@ name: run update.py
 on:
   schedule:
     - cron: '16 35 * * *'
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
